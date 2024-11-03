@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+polygon {
+  stroke: black;
+}
+</style>
+</head>
+<body>
+<svg id="svg">
+</svg>
+<script>
+var svg = document.getElementById("svg");
+var polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+svg.appendChild(polygon);
+
+var array = arr = [ [ 0,0 ], 
+         [ 50,0 ],
+         [ 25,25 ], ];
+
+for (value of array) {
+  var point = svg.createSVGPoint();
+  point.x = value[0];
+  point.y = value[1];
+  polygon.points.appendItem(point);
+}
+
+</script>
+</body>
+</html>
