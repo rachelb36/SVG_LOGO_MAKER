@@ -25,6 +25,7 @@ To use this application, you need to have [Node.js](https://nodejs.org/) install
 `bash`
 
 `cd SVG-Logo-Maker`
+
 3. Install the required dependencies:
 `bash`
 
@@ -32,9 +33,7 @@ To use this application, you need to have [Node.js](https://nodejs.org/) install
 
 ## Usage
 
-![SVG MAKER VIDEO] https://youtu.be/_V7TPJLZeJY (https://youtu.be/_V7TPJLZeJY)
-
-[!SVG MAKER SCREENSHOT](assets/images/module10_screen1.png)
+[![SVG MAKER SCREENSHOT](assets/images/module10_screen1.png)]
 
 *** Run the application using the following command:
 
@@ -63,15 +62,13 @@ After gathering all input, the application generates an SVG file named logo.svg 
 The application outputs "Generated logo.svg" in the command line once the file is created.
 Examples
 
-### Example Walkthrough
-[This is a link to the walkthrough video.](https://youtu.be/UvC3SZefDy4?si=GpvAcf-qnvaRygJr)
+### Example Walkthrough Video
 
-[!screenshot](assets/images/module10_screen1.png)
-
+[![Watch the walkthrough video](https://img.youtube.com/vi/_V7TPJLZeJY/0.jpg)](https://img.youtube.com/vi/_V7TPJLZeJY/0.jpg)
 
 
 
-Run the Application:
+### Run the Application:
 `bash`
 
 `node index.js`
@@ -90,10 +87,10 @@ The message "Generated logo.svg" confirms that the file was successfully created
 
 **Sample Input and Output**
 
-[!green_triangle](examples/green_triangle.svg)
-[!another logo sample] (examples/ltblue_dkblue_logo.svg)
-[!ltblue_dkblue](/examples/ltblue_dkblue_logo.svg)
-[!orange and turquoise](/examples/orange_turq_logo.svg)
+![green_triangle](examples/green_triangle.svg)
+![another_logo_sample](examples/ltblue_dkblue_logo.svg)
+![ltblue_dkblue](examples/logo_salmon_ltblue.svg)
+![orange and turquoise](examples/orange_turq_logo.svg)
 
 
 
@@ -107,9 +104,20 @@ The application generates logo.svg displaying the text "JS" in green on an amber
 License
 
 ## Contributors
+\*\* This project was accomplished with the help provided by the instructors and TAs of the Rice University Coding Bootcamp, including Instructor Darian Mendez, Mateo Wallace, Mark Alfano, Gerard Mennella
+
 
 ## References
 
+- <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial>
+
+- <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes>
+
+- <https://marketplace.visualstudio.com/items?itemName=jock.svg>
+
+- <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts>
+
+## License
 
 This project is licensed under the MIT License.
 
