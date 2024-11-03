@@ -30,7 +30,11 @@ To use this application, you need to have [Node.js](https://nodejs.org/) install
 
 `npm install`
 
-4.  Usage
+## Usage
+
+![SVG MAKER VIDEO] https://youtu.be/_V7TPJLZeJY (https://youtu.be/_V7TPJLZeJY)
+
+[!SVG MAKER SCREENSHOT](assets/images/module10_screen1.png)
 
 *** Run the application using the following command:
 
@@ -51,6 +55,8 @@ Prompts the user to enter a color for the text. The color can be either a color 
   - Provides a list of shapes to choose from: circle, triangle, or square.
   - Shape Color:
   - Prompts the user to enter a color for the shape, accepting color keywords or hexadecimal codes.
+
+
 **SVG Generation:**
 
 After gathering all input, the application generates an SVG file named logo.svg with a size of 300x200 pixels that matches the user's specifications.
@@ -58,23 +64,34 @@ The application outputs "Generated logo.svg" in the command line once the file i
 Examples
 
 ### Example Walkthrough
+[This is a link to the walkthrough video.](https://youtu.be/_V7TPJLZeJY)
+
+
 Run the Application:
 `bash`
 
 `node index.js`
-***Prompts:**
+**Prompts:**
 - npm Text: Enter up to 3 characters for the logo text (e.g., "ABC").
 - Text Color: Specify the text color as a keyword (e.g., "blue") or hexadecimal (e.g., "#FF5733").
 - Shape: Select the shape for the logo (circle, triangle, or square).
 - Shape Color: Specify the shape color using a color keyword or hexadecimal value.
-***Output:**
+**Output:**
 - Once all prompts are completed, the application creates a file named logo.svg.
 The message "Generated logo.svg" confirms that the file was successfully created.
 - Viewing the Logo:
 
-***Open logo.svg in a web browser to view your custom logo design.**
+**Open logo.svg in a web browser to view your custom logo design.**
 
-***Sample Input and Output**
+**Sample Input and Output**
+
+[!green_triangle](examples/green_triangle.svg)
+[!another logo sample] (examples/ltblue_dkblue_logo.svg)
+[!ltblue_dkblue](/examples/ltblue_dkblue_logo.svg)
+[!orange and turquoise](/examples/orange_turq_logo.svg)
+
+
+
 Input:
 Text: JS
 Text Color: #4CAF50 (Green)
