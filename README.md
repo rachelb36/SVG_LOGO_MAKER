@@ -1,16 +1,19 @@
-# Module 10 Object-oriented Programming Challenge: SVG Logo Maker
+# Module 10 Object-oriented Programming Challenge: 
+## SVG Logo Maker
 
 ## Description
 
 The SVG Logo Maker is a command-line application that allows users to generate a simple, customizable SVG logo by inputting text, colors, and shapes. This tool is particularly useful for quickly creating logo concepts or placeholder images for projects. Users can define the logo’s text, text color, shape, and shape color, and the application will output an SVG file with the specified criteria.
 
-## Table of Contents
+### Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Examples](#examples)
-- [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Features](#features)
+* [Examples](#examples)
+* [License](#license)
+* [Contributors](#contributors)
+* [References](#references)
 
 ## Installation
 
@@ -33,7 +36,7 @@ To use this application, you need to have [Node.js](https://nodejs.org/) install
 
 ## Usage
 
-[![SVG MAKER SCREENSHOT](assets/images/module10_screen1.png)]
+![SVG MAKER SCREENSHOT](assets/images/module10_screen1.png)
 
 *** Run the application using the following command:
 
@@ -69,6 +72,7 @@ Examples
 
 
 ### Run the Application:
+
 `bash`
 
 `node index.js`
@@ -83,7 +87,7 @@ The message "Generated logo.svg" confirms that the file was successfully created
 
 ## Viewing the Logo:
 
-**Open logo.svg in a web browser to view your custom logo design.**
+** Open logo.svg in a web browser to view your custom logo design. **
 
 **Sample Input and Output**
 
