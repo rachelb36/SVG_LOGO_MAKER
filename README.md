@@ -64,7 +64,11 @@ The application outputs "Generated logo.svg" in the command line once the file i
 Examples
 
 ### Example Walkthrough
-[This is a link to the walkthrough video.](https://youtu.be/_V7TPJLZeJY)
+[This is a link to the walkthrough video.](https://youtu.be/UvC3SZefDy4?si=GpvAcf-qnvaRygJr)
+
+[!screenshot](assets/images/module10_screen1.png)
+
+
 
 
 Run the Application:
@@ -79,7 +83,8 @@ Run the Application:
 **Output:**
 - Once all prompts are completed, the application creates a file named logo.svg.
 The message "Generated logo.svg" confirms that the file was successfully created.
-- Viewing the Logo:
+
+## Viewing the Logo:
 
 **Open logo.svg in a web browser to view your custom logo design.**
 
