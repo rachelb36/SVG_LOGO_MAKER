@@ -41,17 +41,18 @@ The application will guide you through a series of prompts to gather the necessa
 
 ## Features
 
-The application provides the following functionality:
+- The application provides the following functionality:
 
-***Text Input:**
+- ***Text Input:**
 Prompts the user to enter text for the logo, limited to 3 characters (e.g., "ABC").
-***Text Color:**
+- ***Text Color:**
 Prompts the user to enter a color for the text. The color can be either a color keyword (e.g., "blue") or a hexadecimal color code (e.g., "#0000FF").
-***Shape Selection:**
-Provides a list of shapes to choose from: circle, triangle, or square.
-Shape Color:
-Prompts the user to enter a color for the shape, accepting color keywords or hexadecimal codes.
-SVG Generation:
+- ***Shape Selection:**
+  - Provides a list of shapes to choose from: circle, triangle, or square.
+  - Shape Color:
+  - Prompts the user to enter a color for the shape, accepting color keywords or hexadecimal codes.
+**SVG Generation:**
+
 After gathering all input, the application generates an SVG file named logo.svg with a size of 300x200 pixels that matches the user's specifications.
 The application outputs "Generated logo.svg" in the command line once the file is created.
 Examples
@@ -62,14 +63,15 @@ Run the Application:
 
 `node index.js`
 ***Prompts:**
--- npm Text: Enter up to 3 characters for the logo text (e.g., "ABC").
--- Text Color: Specify the text color as a keyword (e.g., "blue") or hexadecimal (e.g., "#FF5733").
--- Shape: Select the shape for the logo (circle, triangle, or square).
- -- Shape Color: Specify the shape color using a color keyword or hexadecimal value.
+- npm Text: Enter up to 3 characters for the logo text (e.g., "ABC").
+- Text Color: Specify the text color as a keyword (e.g., "blue") or hexadecimal (e.g., "#FF5733").
+- Shape: Select the shape for the logo (circle, triangle, or square).
+- Shape Color: Specify the shape color using a color keyword or hexadecimal value.
 ***Output:**
-Once all prompts are completed, the application creates a file named logo.svg.
+- Once all prompts are completed, the application creates a file named logo.svg.
 The message "Generated logo.svg" confirms that the file was successfully created.
-Viewing the Logo:
+- Viewing the Logo:
+
 ***Open logo.svg in a web browser to view your custom logo design.**
 
 ***Sample Input and Output**
